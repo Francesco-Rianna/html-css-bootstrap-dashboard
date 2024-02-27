@@ -1,7 +1,15 @@
 header {
-    height: 50px;
-    background: red;
+    height: 60px;
+
 }
+
+img {
+    max-width: 100%;
+}
+
+/*---------------
+ STRUCTURE
+ ----------------- */
 
 .ms-container {
     width: 100%;
@@ -23,10 +31,39 @@ header {
 }
 
 .ms-vh {
-    height: calc(100vh - 50px)
+    height: calc(100vh - 60px)
 }
 
 .ms-main-head {
 
     background: blue;
+}
+
+/*---------------
+HEADER
+ ----------------- */
+
+.ms-img-head {
+    height: 50px;
+}
+
+.ms-search {
+    background: #e5e5e5;
+
+}
+
+.ms-search input {
+    width: 100%;
+}
+
+.ms-no-outline {
+    outline: none;
+}
+
+.ms-no-arrow::after {
+    display: none;
+}
+
+.ms-bell {
+    color: #ff8f00;
 }
