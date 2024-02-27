@@ -1,0 +1,32 @@
+header {
+    height: 50px;
+    background: red;
+}
+
+.ms-container {
+    width: 100%;
+}
+
+.ms-bg-main {
+
+    background: yellow;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.ms-bg-aside {
+    width: 100px;
+    background-image: url(./img/sidebar-bg.png);
+    background-color: #10273d;
+    background-size: cover;
+    background-position: center;
+}
+
+.ms-vh {
+    height: calc(100vh - 50px)
+}
+
+.ms-main-head {
+
+    background: blue;
+}
