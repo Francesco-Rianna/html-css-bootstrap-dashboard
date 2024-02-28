@@ -109,3 +109,11 @@ MAIN-MAIN
     border-radius: 5px;
     color: gray;
 }
+
+.offcanvas-body form input {
+    width: 90%;
+}
+
+.offcanvas-body select {
+    width: 90%;
+}
